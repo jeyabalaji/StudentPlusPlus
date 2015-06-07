@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Spinner
+        android:id="@+id/spinner_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/tt_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner_subject"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="14dp"
+        android:text="MONDAY \t\t HOUR 1\nWEDNESDAY \t HOUR 3\nTHURSDAY \t\t HOUR 6\nFRIDAY \t\t HOUR 2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
